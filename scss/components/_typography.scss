@@ -1,0 +1,11 @@
+@use "../custom" as *;
+
+.display-8 {
+    letter-spacing: 0.2px;
+
+    @include media-breakpoint-up(md){
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: .0156rem;
+    }
+}

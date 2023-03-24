@@ -1,0 +1,46 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+// COLOR
+$very-dark-grayish-blue: hsl(217, 19%, 35%);
+$desaturated-dark-blue: hsl(214, 17%, 51%);
+$grayish-blue: hsl(212, 23%, 69%);
+$light-grayish-blue: hsl(210, 46%, 95%);
+
+// SPACERS
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  21: $spacer * .75,
+  3: $spacer,
+  31: $spacer * 1.25,
+  4: $spacer * 1.5,
+  42: $spacer * 2,
+  43: $spacer * 2.25,
+  44: $spacer * 2.5,
+  5: $spacer * 3,
+);
+
+// DISPLAY - HEADINGS
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: 1.25rem,
+  8: 1rem
+);
+
+$display-font-family: "Manrope", sans-serif;
+$display-font-weight: 700;
+$display-line-height: 1.5rem;
+$headings-color: $very-dark-grayish-blue;
+
+// FONT - TEXT
+$font-family-sans-serif: "Manrope", sans-serif;
+$font-family-base: var(--#{$prefix}font-sans-serif);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

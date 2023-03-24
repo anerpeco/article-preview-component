@@ -1,0 +1,43 @@
+@use "../custom" as *;
+
+.btn--share{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    background-color: $light-grayish-blue;
+    border: none;
+    border-radius: 50%;
+    z-index: 100;
+
+    i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $desaturated-dark-blue;
+    }
+
+    &:hover{
+        background-color: $desaturated-dark-blue;
+
+        i{
+            color: $white;
+        }
+    }
+}
+
+.btn--share__open{
+    background-color: $desaturated-dark-blue;
+
+    i{
+        color: $white;
+    }
+
+    &:hover{
+        background-color: $light-grayish-blue;
+
+        i{
+            color: $desaturated-dark-blue;
+        }
+    }
+}
