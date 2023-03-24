@@ -34,7 +34,7 @@ Desktop
 ### Links
 
 - Solution URL: [GitHub](https://github.com/anerpeco/article-preview-component)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://article-preview-component-anerpeco.vercel.app/)
 
 ## My process
 
